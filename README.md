@@ -19,5 +19,5 @@
  - dotnet test /p:CollectCoverage=true
 
 # Swagger
- - http://localhost:5000/index.html
+ - ../index.html
  
