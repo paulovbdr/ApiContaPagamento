@@ -1,0 +1,1698 @@
+{
+  "Application.dll": {
+    "C:\\Desafio\\SocialBank\\Api\\Api.Application\\Program.cs": {
+      "Application.Program": {
+        "System.Void Application.Program::Main(System.String[])": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder Application.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Desafio\\SocialBank\\Api\\Api.Application\\Startup.cs": {
+      "Application.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration Application.Startup::get_Configuration()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Void Application.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "33": 2,
+            "35": 2,
+            "36": 2,
+            "37": 2,
+            "38": 2,
+            "39": 4,
+            "41": 24,
+            "43": 2,
+            "44": 2,
+            "46": 2,
+            "47": 2,
+            "48": 2,
+            "49": 2,
+            "50": 2,
+            "51": 4,
+            "53": 2,
+            "54": 2,
+            "56": 2
+          },
+          "Branches": []
+        },
+        "System.Void Application.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "60": 2,
+            "61": 2,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "67": 2,
+            "68": 2,
+            "69": 2,
+            "70": 2,
+            "71": 2,
+            "72": 2,
+            "73": 2,
+            "74": 2,
+            "76": 2,
+            "78": 2,
+            "80": 2,
+            "81": 2,
+            "82": 2,
+            "83": 4,
+            "84": 2
+          },
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 9,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void Application.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "27": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Desafio\\SocialBank\\Api\\Api.Application\\Controllers\\ContasController.cs": {
+      "Api.Application.Controllers.ContasController": {
+        "System.Void Api.Application.Controllers.ContasController::.ctor(Api.Domain.Interfaces.Services.IContaService)": {
+          "Lines": {
+            "16": 7,
+            "17": 7,
+            "18": 7,
+            "19": 7
+          },
+          "Branches": []
+        }
+      },
+      "Api.Application.Controllers.ContasController/<GetAll>d__2": {
+        "System.Void Api.Application.Controllers.ContasController/<GetAll>d__2::MoveNext()": {
+          "Lines": {
+            "24": 1,
+            "26": 1,
+            "27": 1,
+            "28": 0,
+            "29": 0,
+            "31": 1,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 1
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 45,
+              "EndOffset": 76,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Api.Application.Controllers.ContasController/<Get>d__3": {
+        "System.Void Api.Application.Controllers.ContasController/<Get>d__3::MoveNext()": {
+          "Lines": {
+            "42": 2,
+            "44": 2,
+            "45": 2,
+            "46": 0,
+            "47": 0,
+            "49": 2,
+            "51": 2,
+            "52": 1,
+            "53": 1,
+            "56": 1,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "62": 2
+          },
+          "Branches": [
+            {
+              "Line": 45,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 48,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 51,
+              "Offset": 229,
+              "EndOffset": 231,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 51,
+              "Offset": 229,
+              "EndOffset": 246,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Api.Application.Controllers.ContasController/<Post>d__4": {
+        "System.Void Api.Application.Controllers.ContasController/<Post>d__4::MoveNext()": {
+          "Lines": {
+            "66": 2,
+            "68": 2,
+            "69": 2,
+            "70": 0,
+            "71": 0,
+            "74": 2,
+            "75": 2,
+            "76": 2,
+            "77": 2,
+            "80": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "86": 2
+          },
+          "Branches": [
+            {
+              "Line": 69,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 48,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 75,
+              "Offset": 229,
+              "EndOffset": 231,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 75,
+              "Offset": 229,
+              "EndOffset": 294,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Api.Application.Controllers.ContasController/<Put>d__5": {
+        "System.Void Api.Application.Controllers.ContasController/<Put>d__5::MoveNext()": {
+          "Lines": {
+            "90": 1,
+            "92": 1,
+            "93": 1,
+            "94": 0,
+            "95": 0,
+            "98": 1,
+            "99": 1,
+            "100": 1,
+            "101": 1,
+            "104": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "110": 1
+          },
+          "Branches": [
+            {
+              "Line": 93,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 93,
+              "Offset": 48,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 99,
+              "Offset": 229,
+              "EndOffset": 231,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 99,
+              "Offset": 229,
+              "EndOffset": 252,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Api.Application.Controllers.ContasController/<Delete>d__6": {
+        "System.Void Api.Application.Controllers.ContasController/<Delete>d__6::MoveNext()": {
+          "Lines": {
+            "115": 1,
+            "117": 1,
+            "118": 1,
+            "119": 0,
+            "120": 0,
+            "122": 1,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "128": 1
+          },
+          "Branches": [
+            {
+              "Line": 118,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 118,
+              "Offset": 48,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Api.Application.Controllers.ContasController/<GetSaldo>d__7": {
+        "System.Void Api.Application.Controllers.ContasController/<GetSaldo>d__7::MoveNext()": {
+          "Lines": {
+            "133": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "141": 0,
+            "143": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "149": 0
+          },
+          "Branches": [
+            {
+              "Line": 136,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 136,
+              "Offset": 48,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Api.Application.Controllers.ContasController/<PostTransfer>d__8": {
+        "System.Void Api.Application.Controllers.ContasController/<PostTransfer>d__8::MoveNext()": {
+          "Lines": {
+            "154": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "162": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "169": 0
+          },
+          "Branches": [
+            {
+              "Line": 157,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 48,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Desafio\\SocialBank\\Api\\Api.Application\\Controllers\\LancamentosController.cs": {
+      "Api.Application.Controllers.LancamentosController": {
+        "System.Void Api.Application.Controllers.LancamentosController::.ctor(Api.Domain.Interfaces.Services.ILancamentoService)": {
+          "Lines": {
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2
+          },
+          "Branches": []
+        }
+      },
+      "Api.Application.Controllers.LancamentosController/<Get>d__2": {
+        "System.Void Api.Application.Controllers.LancamentosController/<Get>d__2::MoveNext()": {
+          "Lines": {
+            "24": 1,
+            "26": 1,
+            "27": 1,
+            "28": 0,
+            "29": 0,
+            "31": 1,
+            "33": 1,
+            "34": 0,
+            "35": 0,
+            "38": 1,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 1
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 48,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 33,
+              "Offset": 229,
+              "EndOffset": 231,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 229,
+              "EndOffset": 246,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Api.Application.Controllers.LancamentosController/<Post>d__3": {
+        "System.Void Api.Application.Controllers.LancamentosController/<Post>d__3::MoveNext()": {
+          "Lines": {
+            "48": 1,
+            "50": 1,
+            "51": 1,
+            "52": 0,
+            "53": 0,
+            "56": 1,
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "62": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "68": 1
+          },
+          "Branches": [
+            {
+              "Line": 51,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 48,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 57,
+              "Offset": 229,
+              "EndOffset": 231,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 57,
+              "Offset": 229,
+              "EndOffset": 294,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "CrossCutting.dll": {
+    "c:\\Desafio\\SocialBank\\Api\\Api.CrossCutting\\Mappings\\DtoToModelProfile.cs": {
+      "Api.CrossCutting.Mappings.DtoToModelProfile": {
+        "System.Void Api.CrossCutting.Mappings.DtoToModelProfile::.ctor()": {
+          "Lines": {
+            "11": 2,
+            "12": 2,
+            "13": 2,
+            "15": 2,
+            "17": 2,
+            "19": 2,
+            "21": 2,
+            "23": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.CrossCutting\\Mappings\\EntityToDtoProfile.cs": {
+      "Api.CrossCutting.Mappings.EntityToDtoProfile": {
+        "System.Void Api.CrossCutting.Mappings.EntityToDtoProfile::.ctor()": {
+          "Lines": {
+            "10": 4,
+            "11": 4,
+            "12": 4,
+            "14": 4,
+            "16": 4,
+            "18": 4,
+            "20": 4,
+            "22": 4,
+            "24": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.CrossCutting\\Mappings\\ModelToEntityProfile.cs": {
+      "Api.CrossCutting.Mappings.ModelToEntityProfile": {
+        "System.Void Api.CrossCutting.Mappings.ModelToEntityProfile::.ctor()": {
+          "Lines": {
+            "9": 6,
+            "10": 6,
+            "11": 6,
+            "13": 6,
+            "15": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.CrossCutting\\DependencyInjection\\ConfigureRepository.cs": {
+      "Api.CrossCutting.DependencyInjection.ConfigureRepository": {
+        "System.Void Api.CrossCutting.DependencyInjection.ConfigureRepository::ConfigureDependenciesRepository(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "12": 2,
+            "13": 2,
+            "14": 2,
+            "15": 2,
+            "16": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.CrossCutting\\DependencyInjection\\ConfigureService.cs": {
+      "Api.CrossCutting.DependencyInjection.ConfigureService": {
+        "System.Void Api.CrossCutting.DependencyInjection.ConfigureService::ConfigureDependenciesService(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "10": 2,
+            "11": 2,
+            "12": 2,
+            "13": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Data.dll": {
+    "c:\\Desafio\\SocialBank\\Api\\Api.Data\\Repository\\BaseRepository.cs": {
+      "Api.Data.Repository.BaseRepository`1": {
+        "System.Void Api.Data.Repository.BaseRepository`1::.ctor(Api.Data.Context.MyContext)": {
+          "Lines": {
+            "15": 11,
+            "16": 11,
+            "17": 11,
+            "18": 11,
+            "19": 11
+          },
+          "Branches": []
+        }
+      },
+      "Api.Data.Repository.BaseRepository`1/<DeleteAsync>d__3": {
+        "System.Void Api.Data.Repository.BaseRepository`1/<DeleteAsync>d__3::MoveNext()": {
+          "Lines": {
+            "22": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 0,
+            "28": 0,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 1
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 358,
+              "EndOffset": 360,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 358,
+              "EndOffset": 368,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Api.Data.Repository.BaseRepository`1/<InsertAsync>d__4": {
+        "System.Void Api.Data.Repository.BaseRepository`1/<InsertAsync>d__4::MoveNext()": {
+          "Lines": {
+            "42": 2,
+            "44": 2,
+            "45": 2,
+            "46": 2,
+            "47": 2,
+            "48": 2,
+            "50": 2,
+            "51": 2,
+            "52": 2,
+            "53": 2,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "59": 2,
+            "60": 2
+          },
+          "Branches": [
+            {
+              "Line": 45,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 45,
+              "Offset": 55,
+              "EndOffset": 81,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "Api.Data.Repository.BaseRepository`1/<SelectAsync>d__5": {
+        "System.Void Api.Data.Repository.BaseRepository`1/<SelectAsync>d__5::MoveNext()": {
+          "Lines": {
+            "63": 4,
+            "65": 4,
+            "66": 4,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "72": 4
+          },
+          "Branches": []
+        }
+      },
+      "Api.Data.Repository.BaseRepository`1/<SelectAsync>d__6": {
+        "System.Void Api.Data.Repository.BaseRepository`1/<SelectAsync>d__6::MoveNext()": {
+          "Lines": {
+            "75": 1,
+            "77": 1,
+            "78": 1,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "84": 1
+          },
+          "Branches": []
+        }
+      },
+      "Api.Data.Repository.BaseRepository`1/<UpdateAsync>d__7": {
+        "System.Void Api.Data.Repository.BaseRepository`1/<UpdateAsync>d__7::MoveNext()": {
+          "Lines": {
+            "87": 1,
+            "89": 1,
+            "90": 1,
+            "91": 1,
+            "92": 0,
+            "93": 0,
+            "96": 1,
+            "97": 1,
+            "99": 1,
+            "100": 1,
+            "101": 1,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "107": 1,
+            "108": 1
+          },
+          "Branches": [
+            {
+              "Line": 91,
+              "Offset": 378,
+              "EndOffset": 380,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 91,
+              "Offset": 378,
+              "EndOffset": 394,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Api.Data.Repository.BaseRepository`1/<ExistAsync>d__8": {
+        "System.Void Api.Data.Repository.BaseRepository`1/<ExistAsync>d__8::MoveNext()": {
+          "Lines": {
+            "111": 0,
+            "112": 0,
+            "113": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Data\\Implementations\\ContaImplementation.cs": {
+      "Api.Data.Implementations.ContaImplementation": {
+        "System.Void Api.Data.Implementations.ContaImplementation::.ctor(Api.Data.Context.MyContext)": {
+          "Lines": {
+            "15": 9,
+            "16": 9,
+            "17": 9,
+            "18": 9
+          },
+          "Branches": []
+        }
+      },
+      "Api.Data.Implementations.ContaImplementation/<InsertTransfer>d__2": {
+        "System.Void Api.Data.Implementations.ContaImplementation/<InsertTransfer>d__2::MoveNext()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "32": 0,
+            "34": 0,
+            "36": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "44": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Data\\Implementations\\LancamentoImplementation.cs": {
+      "Api.Data.Implementations.LancamentoImplementation": {
+        "System.Void Api.Data.Implementations.LancamentoImplementation::.ctor(Api.Data.Context.MyContext)": {
+          "Lines": {
+            "15": 2,
+            "16": 2,
+            "17": 4,
+            "18": 2
+          },
+          "Branches": []
+        }
+      },
+      "Api.Data.Implementations.LancamentoImplementation/<InsertLancamento>d__2": {
+        "System.Void Api.Data.Implementations.LancamentoImplementation/<InsertLancamento>d__2::MoveNext()": {
+          "Lines": {
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "31": 1,
+            "32": 1,
+            "34": 1,
+            "35": 1,
+            "37": 1,
+            "38": 1,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 1,
+            "45": 1,
+            "46": 1
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 86,
+              "EndOffset": 88,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 26,
+              "Offset": 86,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Data\\Context\\MyContext.cs": {
+      "Api.Data.Context.MyContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<Api.Domain.Entities.ContaEntity> Api.Data.Context.MyContext::get_Contas()": {
+          "Lines": {
+            "10": 11
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Api.Domain.Entities.LancamentoEntity> Api.Data.Context.MyContext::get_Lancamentos()": {
+          "Lines": {
+            "12": 11
+          },
+          "Branches": []
+        },
+        "System.Void Api.Data.Context.MyContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Api.Data.Context.MyContext>)": {
+          "Lines": {
+            "8": 33
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Domain.dll": {
+    "c:\\Desafio\\SocialBank\\Api\\Api.Domain\\Models\\ContaModel.cs": {
+      "Api.Domain.Models.ContaModel": {
+        "System.Guid Api.Domain.Models.ContaModel::get_Id()": {
+          "Lines": {
+            "10": 9
+          },
+          "Branches": []
+        },
+        "System.Void Api.Domain.Models.ContaModel::set_Id(System.Guid)": {
+          "Lines": {
+            "11": 3
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Models.ContaModel::get_Name()": {
+          "Lines": {
+            "17": 9
+          },
+          "Branches": []
+        },
+        "System.Void Api.Domain.Models.ContaModel::set_Name(System.String)": {
+          "Lines": {
+            "18": 9
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Models.ContaModel::get_Description()": {
+          "Lines": {
+            "24": 9
+          },
+          "Branches": []
+        },
+        "System.Void Api.Domain.Models.ContaModel::set_Description(System.String)": {
+          "Lines": {
+            "25": 9
+          },
+          "Branches": []
+        },
+        "System.Boolean Api.Domain.Models.ContaModel::get_Status()": {
+          "Lines": {
+            "32": 9
+          },
+          "Branches": []
+        },
+        "System.Void Api.Domain.Models.ContaModel::set_Status(System.Boolean)": {
+          "Lines": {
+            "33": 9
+          },
+          "Branches": []
+        },
+        "System.Decimal Api.Domain.Models.ContaModel::get_Balance()": {
+          "Lines": {
+            "40": 9
+          },
+          "Branches": []
+        },
+        "System.Void Api.Domain.Models.ContaModel::set_Balance(System.Decimal)": {
+          "Lines": {
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> Api.Domain.Models.ContaModel::get_CreateAt()": {
+          "Lines": {
+            "47": 9
+          },
+          "Branches": []
+        },
+        "System.Void Api.Domain.Models.ContaModel::set_CreateAt(System.Nullable`1<System.DateTime>)": {
+          "Lines": {
+            "48": 0
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 9,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.DateTime Api.Domain.Models.ContaModel::get_UpdateAt()": {
+          "Lines": {
+            "54": 9
+          },
+          "Branches": []
+        },
+        "System.Void Api.Domain.Models.ContaModel::set_UpdateAt(System.DateTime)": {
+          "Lines": {
+            "55": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Domain\\Models\\LancamentoModel.cs": {
+      "Api.Domain.Models.LancamentoModel": {
+        "System.Guid Api.Domain.Models.LancamentoModel::get_Id()": {
+          "Lines": {
+            "10": 3
+          },
+          "Branches": []
+        },
+        "System.Void Api.Domain.Models.LancamentoModel::set_Id(System.Guid)": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Api.Domain.Models.LancamentoModel::get_ContaId()": {
+          "Lines": {
+            "17": 3
+          },
+          "Branches": []
+        },
+        "System.Void Api.Domain.Models.LancamentoModel::set_ContaId(System.Guid)": {
+          "Lines": {
+            "18": 3
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Models.LancamentoModel::get_Description()": {
+          "Lines": {
+            "24": 3
+          },
+          "Branches": []
+        },
+        "System.Void Api.Domain.Models.LancamentoModel::set_Description(System.String)": {
+          "Lines": {
+            "25": 3
+          },
+          "Branches": []
+        },
+        "System.Decimal Api.Domain.Models.LancamentoModel::get_Value()": {
+          "Lines": {
+            "32": 3
+          },
+          "Branches": []
+        },
+        "System.Void Api.Domain.Models.LancamentoModel::set_Value(System.Decimal)": {
+          "Lines": {
+            "33": 3
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> Api.Domain.Models.LancamentoModel::get_CreateAt()": {
+          "Lines": {
+            "38": 3
+          },
+          "Branches": []
+        },
+        "System.Void Api.Domain.Models.LancamentoModel::set_CreateAt(System.Nullable`1<System.DateTime>)": {
+          "Lines": {
+            "39": 0
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 9,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.DateTime Api.Domain.Models.LancamentoModel::get_UpdateAt()": {
+          "Lines": {
+            "45": 3
+          },
+          "Branches": []
+        },
+        "System.Void Api.Domain.Models.LancamentoModel::set_UpdateAt(System.DateTime)": {
+          "Lines": {
+            "46": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Domain\\Entities\\BaseEntity.cs": {
+      "Api.Domain.Entities.BaseEntity": {
+        "System.Guid Api.Domain.Entities.BaseEntity::get_Id()": {
+          "Lines": {
+            "9": 19
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> Api.Domain.Entities.BaseEntity::get_CreateAt()": {
+          "Lines": {
+            "14": 12
+          },
+          "Branches": []
+        },
+        "System.Void Api.Domain.Entities.BaseEntity::set_CreateAt(System.Nullable`1<System.DateTime>)": {
+          "Lines": {
+            "15": 24
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 15,
+              "Offset": 9,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Nullable`1<System.DateTime> Api.Domain.Entities.BaseEntity::get_UpdateAt()": {
+          "Lines": {
+            "18": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Domain\\Entities\\ContaEntity.cs": {
+      "Api.Domain.Entities.ContaEntity": {
+        "System.String Api.Domain.Entities.ContaEntity::get_Name()": {
+          "Lines": {
+            "9": 9
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Entities.ContaEntity::get_Description()": {
+          "Lines": {
+            "13": 9
+          },
+          "Branches": []
+        },
+        "System.Decimal Api.Domain.Entities.ContaEntity::get_Balance()": {
+          "Lines": {
+            "15": 11
+          },
+          "Branches": []
+        },
+        "System.Boolean Api.Domain.Entities.ContaEntity::get_Status()": {
+          "Lines": {
+            "18": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Domain\\Entities\\LancamentoEntity.cs": {
+      "Api.Domain.Entities.LancamentoEntity": {
+        "System.String Api.Domain.Entities.LancamentoEntity::get_Description()": {
+          "Lines": {
+            "11": 3
+          },
+          "Branches": []
+        },
+        "System.Decimal Api.Domain.Entities.LancamentoEntity::get_Value()": {
+          "Lines": {
+            "14": 3
+          },
+          "Branches": []
+        },
+        "System.Guid Api.Domain.Entities.LancamentoEntity::get_ContaId()": {
+          "Lines": {
+            "18": 3
+          },
+          "Branches": []
+        },
+        "Api.Domain.Entities.ContaEntity Api.Domain.Entities.LancamentoEntity::get_Conta()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Domain\\Dtos\\Lancamento\\LancamentoDto.cs": {
+      "Api.Domain.Dtos.Lancamento.LancamentoDto": {
+        "System.Guid Api.Domain.Dtos.Lancamento.LancamentoDto::get_Id()": {
+          "Lines": {
+            "7": 4
+          },
+          "Branches": []
+        },
+        "System.Guid Api.Domain.Dtos.Lancamento.LancamentoDto::get_ContaId()": {
+          "Lines": {
+            "9": 3
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Dtos.Lancamento.LancamentoDto::get_Description()": {
+          "Lines": {
+            "10": 3
+          },
+          "Branches": []
+        },
+        "System.Decimal Api.Domain.Dtos.Lancamento.LancamentoDto::get_Value()": {
+          "Lines": {
+            "11": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Domain\\Dtos\\Lancamento\\LancamentoDtoCreate.cs": {
+      "Api.Domain.Dtos.Lancamento.LancamentoDtoCreate": {
+        "System.Guid Api.Domain.Dtos.Lancamento.LancamentoDtoCreate::get_ContaId()": {
+          "Lines": {
+            "9": 7
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Dtos.Lancamento.LancamentoDtoCreate::get_Description()": {
+          "Lines": {
+            "13": 6
+          },
+          "Branches": []
+        },
+        "System.Decimal Api.Domain.Dtos.Lancamento.LancamentoDtoCreate::get_Value()": {
+          "Lines": {
+            "16": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Domain\\Dtos\\Lancamento\\LancamentoDtoCreateResult.cs": {
+      "Api.Domain.Dtos.Lancamento.LancamentoDtoCreateResult": {
+        "System.Guid Api.Domain.Dtos.Lancamento.LancamentoDtoCreateResult::get_Id()": {
+          "Lines": {
+            "7": 7
+          },
+          "Branches": []
+        },
+        "System.Guid Api.Domain.Dtos.Lancamento.LancamentoDtoCreateResult::get_ContaId()": {
+          "Lines": {
+            "8": 4
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Dtos.Lancamento.LancamentoDtoCreateResult::get_Description()": {
+          "Lines": {
+            "9": 4
+          },
+          "Branches": []
+        },
+        "System.Decimal Api.Domain.Dtos.Lancamento.LancamentoDtoCreateResult::get_Value()": {
+          "Lines": {
+            "10": 4
+          },
+          "Branches": []
+        },
+        "System.DateTime Api.Domain.Dtos.Lancamento.LancamentoDtoCreateResult::get_CreateAt()": {
+          "Lines": {
+            "11": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Domain\\Dtos\\Conta\\ContaDto.cs": {
+      "Api.Domain.Dtos.Conta.ContaDto": {
+        "System.Guid Api.Domain.Dtos.Conta.ContaDto::get_Id()": {
+          "Lines": {
+            "7": 14
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Dtos.Conta.ContaDto::get_Name()": {
+          "Lines": {
+            "9": 9
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Dtos.Conta.ContaDto::get_Description()": {
+          "Lines": {
+            "11": 9
+          },
+          "Branches": []
+        },
+        "System.Decimal Api.Domain.Dtos.Conta.ContaDto::get_Balance()": {
+          "Lines": {
+            "12": 9
+          },
+          "Branches": []
+        },
+        "System.Boolean Api.Domain.Dtos.Conta.ContaDto::get_Status()": {
+          "Lines": {
+            "13": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Domain\\Dtos\\Conta\\ContaDtoBalance.cs": {
+      "Api.Domain.Dtos.Conta.ContaDtoBalance": {
+        "System.Decimal Api.Domain.Dtos.Conta.ContaDtoBalance::get_Balance()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Domain\\Dtos\\Conta\\ContaDtoCreate.cs": {
+      "Api.Domain.Dtos.Conta.ContaDtoCreate": {
+        "System.String Api.Domain.Dtos.Conta.ContaDtoCreate::get_Name()": {
+          "Lines": {
+            "9": 12
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Dtos.Conta.ContaDtoCreate::get_Description()": {
+          "Lines": {
+            "13": 12
+          },
+          "Branches": []
+        },
+        "System.Boolean Api.Domain.Dtos.Conta.ContaDtoCreate::get_Status()": {
+          "Lines": {
+            "16": 12
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Domain\\Dtos\\Conta\\ContaDtoCreateResult.cs": {
+      "Api.Domain.Dtos.Conta.ContaDtoCreateResult": {
+        "System.Guid Api.Domain.Dtos.Conta.ContaDtoCreateResult::get_Id()": {
+          "Lines": {
+            "7": 14
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Dtos.Conta.ContaDtoCreateResult::get_Name()": {
+          "Lines": {
+            "9": 8
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Dtos.Conta.ContaDtoCreateResult::get_Description()": {
+          "Lines": {
+            "11": 8
+          },
+          "Branches": []
+        },
+        "System.Boolean Api.Domain.Dtos.Conta.ContaDtoCreateResult::get_Status()": {
+          "Lines": {
+            "13": 8
+          },
+          "Branches": []
+        },
+        "System.Decimal Api.Domain.Dtos.Conta.ContaDtoCreateResult::get_Balance()": {
+          "Lines": {
+            "14": 6
+          },
+          "Branches": []
+        },
+        "System.DateTime Api.Domain.Dtos.Conta.ContaDtoCreateResult::get_CreateAt()": {
+          "Lines": {
+            "15": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Domain\\Dtos\\Conta\\ContaDtoUpdate.cs": {
+      "Api.Domain.Dtos.Conta.ContaDtoUpdate": {
+        "System.Guid Api.Domain.Dtos.Conta.ContaDtoUpdate::get_Id()": {
+          "Lines": {
+            "9": 6
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Dtos.Conta.ContaDtoUpdate::get_Name()": {
+          "Lines": {
+            "13": 6
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Dtos.Conta.ContaDtoUpdate::get_Description()": {
+          "Lines": {
+            "17": 5
+          },
+          "Branches": []
+        },
+        "System.Boolean Api.Domain.Dtos.Conta.ContaDtoUpdate::get_Status()": {
+          "Lines": {
+            "20": 5
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Domain\\Dtos\\Conta\\ContaDtoUpdateResult.cs": {
+      "Api.Domain.Dtos.Conta.ContaDtoUpdateResult": {
+        "System.Guid Api.Domain.Dtos.Conta.ContaDtoUpdateResult::get_Id()": {
+          "Lines": {
+            "7": 4
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Dtos.Conta.ContaDtoUpdateResult::get_Name()": {
+          "Lines": {
+            "9": 4
+          },
+          "Branches": []
+        },
+        "System.String Api.Domain.Dtos.Conta.ContaDtoUpdateResult::get_Description()": {
+          "Lines": {
+            "11": 3
+          },
+          "Branches": []
+        },
+        "System.Boolean Api.Domain.Dtos.Conta.ContaDtoUpdateResult::get_Status()": {
+          "Lines": {
+            "13": 3
+          },
+          "Branches": []
+        },
+        "System.Decimal Api.Domain.Dtos.Conta.ContaDtoUpdateResult::get_Balance()": {
+          "Lines": {
+            "14": 3
+          },
+          "Branches": []
+        },
+        "System.DateTime Api.Domain.Dtos.Conta.ContaDtoUpdateResult::get_UpdateAt()": {
+          "Lines": {
+            "15": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Domain\\Dtos\\Conta\\ContaTransferenciaDtoCreate.cs": {
+      "Api.Domain.Dtos.Conta.ContaTransferenciaDtoCreate": {
+        "System.Guid Api.Domain.Dtos.Conta.ContaTransferenciaDtoCreate::get_ContaIdOrigem()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Api.Domain.Dtos.Conta.ContaTransferenciaDtoCreate::get_ContaIdDestino()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Api.Domain.Dtos.Conta.ContaTransferenciaDtoCreate::get_ValorTransferencia()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Service.dll": {
+    "c:\\Desafio\\SocialBank\\Api\\Api.Service\\Services\\ContaService.cs": {
+      "Api.Service.Services.ContaService": {
+        "System.Void Api.Service.Services.ContaService::.ctor(Api.Domain.Repository.IContaRepository,AutoMapper.IMapper)": {
+          "Lines": {
+            "20": 7,
+            "21": 7,
+            "22": 7,
+            "23": 7,
+            "24": 7
+          },
+          "Branches": []
+        }
+      },
+      "Api.Service.Services.ContaService/<Delete>d__3": {
+        "System.Void Api.Service.Services.ContaService/<Delete>d__3::MoveNext()": {
+          "Lines": {
+            "27": 1,
+            "28": 1,
+            "29": 1
+          },
+          "Branches": []
+        }
+      },
+      "Api.Service.Services.ContaService/<Get>d__4": {
+        "System.Void Api.Service.Services.ContaService/<Get>d__4::MoveNext()": {
+          "Lines": {
+            "32": 2,
+            "33": 2,
+            "34": 2,
+            "35": 2
+          },
+          "Branches": []
+        }
+      },
+      "Api.Service.Services.ContaService/<GetAll>d__5": {
+        "System.Void Api.Service.Services.ContaService/<GetAll>d__5::MoveNext()": {
+          "Lines": {
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1
+          },
+          "Branches": []
+        }
+      },
+      "Api.Service.Services.ContaService/<Post>d__6": {
+        "System.Void Api.Service.Services.ContaService/<Post>d__6::MoveNext()": {
+          "Lines": {
+            "44": 2,
+            "45": 2,
+            "46": 2,
+            "47": 2,
+            "49": 2,
+            "50": 2
+          },
+          "Branches": []
+        }
+      },
+      "Api.Service.Services.ContaService/<Put>d__7": {
+        "System.Void Api.Service.Services.ContaService/<Put>d__7::MoveNext()": {
+          "Lines": {
+            "53": 1,
+            "54": 1,
+            "55": 1,
+            "56": 1,
+            "57": 1,
+            "58": 1
+          },
+          "Branches": []
+        }
+      },
+      "Api.Service.Services.ContaService/<GetBalance>d__8": {
+        "System.Void Api.Service.Services.ContaService/<GetBalance>d__8::MoveNext()": {
+          "Lines": {
+            "61": 0,
+            "62": 0,
+            "64": 0,
+            "65": 0
+          },
+          "Branches": []
+        }
+      },
+      "Api.Service.Services.ContaService/<PostTransfer>d__9": {
+        "System.Void Api.Service.Services.ContaService/<PostTransfer>d__9::MoveNext()": {
+          "Lines": {
+            "68": 0,
+            "69": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "76": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "83": 0,
+            "84": 0,
+            "86": 0,
+            "87": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "99": 0,
+            "101": 0,
+            "102": 0
+          },
+          "Branches": [
+            {
+              "Line": 71,
+              "Offset": 194,
+              "EndOffset": 196,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 194,
+              "EndOffset": 208,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 365,
+              "EndOffset": 367,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 365,
+              "EndOffset": 379,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "c:\\Desafio\\SocialBank\\Api\\Api.Service\\Services\\LancamentoService.cs": {
+      "Api.Service.Services.LancamentoService": {
+        "System.Void Api.Service.Services.LancamentoService::.ctor(Api.Domain.Repository.ILancamentoRepository,AutoMapper.IMapper,Api.Domain.Repository.IContaRepository)": {
+          "Lines": {
+            "18": 2,
+            "19": 2,
+            "20": 2,
+            "21": 2,
+            "22": 2,
+            "23": 2
+          },
+          "Branches": []
+        }
+      },
+      "Api.Service.Services.LancamentoService/<Get>d__4": {
+        "System.Void Api.Service.Services.LancamentoService/<Get>d__4::MoveNext()": {
+          "Lines": {
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": []
+        }
+      },
+      "Api.Service.Services.LancamentoService/<Post>d__5": {
+        "System.Void Api.Service.Services.LancamentoService/<Post>d__5::MoveNext()": {
+          "Lines": {
+            "31": 1,
+            "32": 1,
+            "34": 1,
+            "35": 0,
+            "36": 0,
+            "38": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "44": 1,
+            "45": 1
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 180,
+              "EndOffset": 182,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 180,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}
